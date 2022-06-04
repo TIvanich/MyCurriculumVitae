@@ -32,17 +32,19 @@
     color: #101214;
     margin-top: 5%;
 }
-.aboutme{
+.aboutme{    
     display: flex;
-    justify-content: space-around;    
+    justify-content: space-around; 
+      
 }
 .aboutme__info{
     background-color: rgb(247, 247, 247);
     border-top-left-radius: 15px;
     border-top-right-radius: 50px;
     border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-bottom-right-radius: 15px; 
     margin-right: 25px;
+    padding: 15px;
     max-width: 67%;    
 }
 .aboutme__info ul{
