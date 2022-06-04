@@ -6,7 +6,7 @@
 .photo img{
     width: 140px;
     height: 140px;
-    border-radius: 10px;
+    border-radius: 15px;
     @media (max-width: 600px) {
         width: 100px;
         height: 100px;
@@ -37,8 +37,13 @@
     justify-content: space-around;    
 }
 .aboutme__info{
+    background-color: rgb(247, 247, 247);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     margin-right: 25px;
-    max-width: 67%;
+    max-width: 67%;    
 }
 .aboutme__info ul{
     padding-left: 10px;
@@ -52,6 +57,10 @@
     color: #73808d;
     padding-bottom: 10px;
     padding-top: 10px;
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
+.aboutme__infoblock ul{
+    margin-left: 10px;
 }
 .infoproject li{
     margin-left: 15px;
@@ -60,6 +69,12 @@
 .projectname{
     padding-bottom: 10px;
 }
+.projectname a{
+    color: black;
+}
+.tags{
+    
+}
 .links{
     margin-bottom: 25px;
     color: #73808D;
@@ -67,7 +82,7 @@
 .skills{
     font-style: Arial;
     color: #73808D;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .skillstags{
     margin-bottom: 5px;
