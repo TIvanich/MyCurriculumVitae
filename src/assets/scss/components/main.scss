@@ -1,0 +1,86 @@
+.myinfo{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.photo img{
+    width: 140px;
+    height: 140px;
+    border-radius: 10px;
+    @media (max-width: 600px) {
+        width: 100px;
+        height: 100px;
+    }
+}
+.name{
+    margin-top: 10px;
+}
+.name h1{
+    font-family: 'Arial';
+    font-size: 48px;
+    line-height: 28px;
+    color: #101214;
+    
+    @media (max-width: 600px) {
+        font-size: 36px;
+    }
+}
+.name h2{
+    font-family: 'Arial';
+    font-size: 14px;
+    line-height: 28px;
+    color: #101214;
+    margin-top: 5%;
+}
+.aboutme{
+    display: flex;
+    justify-content: space-around;    
+}
+.aboutme__info{
+    margin-right: 25px;
+    max-width: 67%;
+}
+.aboutme__info ul{
+    padding-left: 10px;
+}
+.aboutme__infoblock h5{
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #73808d;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.infoproject li{
+    margin-left: 15px;
+    list-style-type: circle;
+}
+.projectname{
+    padding-bottom: 10px;
+}
+.links{
+    margin-bottom: 25px;
+    color: #73808D;
+}
+.skills{
+    font-style: Arial;
+    color: #73808D;
+    margin-bottom: 20px;
+}
+.skillstags{
+    margin-bottom: 5px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.skills li{
+    list-style-type: none;
+}
+.imglink{
+    height: 30px;
+    width: 30px;
+}
+.sociallink{
+    margin-right: 10px;
+}
